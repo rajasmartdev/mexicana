@@ -305,7 +305,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 90px;
   margin-right: 8px;
 }
 
@@ -593,7 +593,6 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
   position: relative;
 }
 
@@ -608,7 +607,7 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  max-height: 160px;
   margin-right: 6px;
 }
 

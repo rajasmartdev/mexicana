@@ -43,29 +43,15 @@
 
   <header id="header" class="header fixed-top">
 
-    <div class="topbar d-flex align-items-center">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a
-              href="mailto:contact@example.com">contact@example.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>(03) 9827 4551</span></i>
-        </div>
-        <div class="languages d-none d-md-flex align-items-center">
-          <ul>
-            <li>En</li>
-            <li><a href="#">De</a></li>
-          </ul>
-        </div>
-      </div>
-    </div><!-- End Top Bar -->
+    
 
     <div class="branding d-flex align-items-cente">
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1 class="sitename">Mexicana @ Rose</h1>
+          <img src="assets/images/logo.png" alt=""> 
+          
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -77,25 +63,7 @@
             <li><a href="#events">Events</a></li>
             <li><a href="#chefs">Chefs</a></li>
             <li><a href="#gallery">Gallery</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                      class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
+            
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -220,13 +188,14 @@
     </section><!-- /Why Us Section -->
 
     <!-- Menu Section -->
-    <section id="menu" class="menu section">
+   <section id="menu" class="menu section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Menu</h2>
         <p>Check Our Tasty Menu</p>
-      </div><!-- End Section Title -->
+      </div>
+      <!-- End Section Title -->
 
       <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
@@ -234,110 +203,488 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul class="menu-filters isotope-filters">
               <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-tacos">Tacos</li>
               <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-quesadillas">Quesadillas</li>
+              <li data-filter=".filter-specialty">Tortas</li>
+              <li data-filter=".filter-kids">Kids Menu</li>
               <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
+              <li data-filter=".filter-extras">Extras</li>
+              <li data-filter=".filter-dessert">Dessert</li>
             </ul>
           </div>
-        </div><!-- Menu Filters -->
+        </div>
+        <!-- Menu Filters -->
 
         <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
 
+          <!-- TACOS -->
+          <div class="col-lg-6 menu-item isotope-item filter-tacos">
+            <img src="assets/img/menu/MexicanaRose_Tacos.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Veggie Tacos</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              Tempura cauliflower and broccoli, shaved cabbage, pickled carrots, pico de gallo & vegan herbed aioli
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-tacos">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Polo Tacos</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              Mexican spiced grilled chicken with mix leafs, pickled onion,pico de gallo & herbed aioli
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-tacos">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Taco El Bistec</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              Tender marinated grilled beef steak, mixed lettuce, pico de gallo, herb salsa, egmont cheese
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-tacos">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Baja Taco</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              With crispy fried fish, chipotle remoulade, mexican slaw, homemade guacamole
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-tacos">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Prawn Taco</a><span>$9</span>
+            </div>
+            <div class="menu-ingredients">
+              With crispy prawns, salad mix, pineapple salsa, pickled carrots, and chipotle aioli
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-tacos">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lamb Taco</a><span>$9</span>
+            </div>
+            <div class="menu-ingredients">
+              Lamb barcoa with leaf, pickled onion, pico de gallo, cheese & aji amrillo aioli
+            </div>
+          </div>
+
+          <!-- STARTERS -->
           <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/Mexicana@Rose_MexicanDip.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
+              <a href="#">New Mexico Dip</a><span>$18</span>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              Tortilla Chips, homemade refried frijoles con queso & Guacamole
             </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
+          </div>
 
           <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/Mexicana@Rose_ChickenFlatus.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
+              <a href="#">Chiken Flautas</a><span>$15</span>
             </div>
             <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              6p of chiken flatus rolled in flour tortillas with filling of chiken queso , pico, crispy fried, served with chipotle mayo and pickled salad
             </div>
-          </div><!-- Menu Item -->
+          </div>
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="assets/img/menu/Mexicana@Rose_NewMexicanNachos.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">New Mexican Nacho</a><span>$19</span>
+            </div>
+            <div class="menu-ingredients">
+              Tortilla crisps, smoked cheese blend, house- made guacamole, Pico de Gallo, sour cream, salsa & jalapeños
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="assets/img/menu/Mexicana@Rose_PapaFritasCargadas.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Papas Fritas Cargadas</a><span>$17</span>
+            </div>
+            <div class="menu-ingredients">
+              Crispy fries topped with black beans, smoked cheese blend, sour cream & salsa.
+              Add chicken chilli con carne, beef chilli con carne, black beans sweet potatoes
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="assets/img/menu/Mexicana@Rose_Elote.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Elote</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled fresh corn, spiced mayo, queso fresco
+            </div>
+          </div>
+
+          <!-- QUESADILLAS -->
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/Mexicana@Rose_Quesadilla.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Quesadilla de Verduras</a><span>$23</span>
+            </div>
+            <div class="menu-ingredients">
+                Mushrooms & broccoli with crispy melted cheese, peppers, spinach, pico de gallo,
+                sour cream, salsa in a grilled flour tortilla. (Vegan option available)
+            </div>
+        </div>
+
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
             <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
+                <a href="#">Quesadilla de Pollo</a><span>$23</span>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+                Herb-spiced grilled chicken, crispy melted cheese, peppers, roasted cabbage,
+                pico de gallo, sour cream, salsa in a grilled flour tortilla.
             </div>
-          </div><!-- Menu Item -->
+        </div>
+
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Quesadilla de Cordero</a><span>$23</span>
+            </div>
+            <div class="menu-ingredients">
+                Slow-cooked lamb shoulder, crispy melted cheese, roasted peaches, pickled onions,
+                roquette, pico de gallo, smoked sour cream, salsa verde in a grilled flour tortilla.
+            </div>
+        </div>
+
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Quesadilla de Tenera</a><span>$24</span>
+            </div>
+            <div class="menu-ingredients">
+                Slow-cooked beef brisket, crispy melted cheese, roasted peaches, pickled onions,
+                pico de gallo, sour cream, salsa in a grilled flour tortilla.
+            </div>
+        </div>
+
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/Mexicana@Rose_Burrito.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Burritos</a><span>$24</span>
+            </div>
+            <div class="menu-ingredients">
+                Grilled flour tortilla stuffed with roasted cabbage, pickled onions,
+                pico de gallo, smoked cheese blend, and your choice of filling.
+                Baked and served with Mexican rice salad.
+            </div>
+        </div>
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/Mexicana@Rose_BurritoBowl.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Burrito Bowl</a><span>$25</span>
+            </div>
+            <div class="menu-ingredients">
+                Roasted cabbage, pickled onions, pico de gallo, Mexican cheese mix,
+                black beans, and Mexican rice — served in a bowl.
+            </div>
+        </div>
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/Mexicana@Rose_MexicanPaella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Mexican Paella</a><span>$25</span>
+            </div>
+            <div class="menu-ingredients">
+                Cooked with Mexican rice, black beans, pico de gallo,
+                New Mexican sauce, and cheese blend.
+            </div>
+        </div>
+        <div class="col-lg-6 menu-item isotope-item filter-quesadillas">
+            <img src="assets/img/menu/Mexicana@Rose_Fajita.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+                <a href="#">Fajitas</a><span>$28</span>
+            </div>
+            <div class="menu-ingredients">
+                Grilled meat or vegetables with sautéed onions, cabbage, peppers,
+                served with warm flour tortillas.
+            </div>
+        </div>
+
+
+         
+          <!-- TORTAS -->
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="assets/img/menu/Mexicana@Rose_Tortas.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Torta de Verdura</a><span>$22</span>
+            </div>
+            <div class="menu-ingredients">
+              Spiced sweet potatoes, refried beans, house guacamole, shredded greens, jalapenos, slice tomatoes, pickled onions, vegan chipotle mayo with chips
+            </div>
+          </div>
 
           <div class="col-lg-6 menu-item isotope-item filter-specialty">
             <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              <a href="#">Torta de Pollo</a><span>$23</span>
             </div>
             <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+              Tender marinated grilled beef steak, mixed lettuce, pico de gallo, herb salsa, egmont cheese
             </div>
-          </div><!-- Menu Item -->
+          </div>
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+              <a href="#">Tortas Bistec de Carne</a><span>$24</span>
             </div>
             <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              Slow cooked beef brisket, oxcan cheese, shredded greens, pickled carrots + onions, slice tomatoes, chipotle mayo with chips
             </div>
-          </div><!-- Menu Item -->
+          </div>
 
+          <!-- KIDS MENU -->
+          <div class="col-lg-6 menu-item isotope-item filter-kids">
+            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Niño’s Nacho</a><span>$7</span>
+            </div>
+            <div class="menu-ingredients">
+              Crunchy corn tortillas chips smothered with melted cheese. Served with Niño’s choice of salsa or sour cream
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-kids">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Niño’s Taco</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              Crunchy corn or soft flour tortillas filled with lettuce, tomato, cheese and choice of beef, chicken or beans
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-kids">
+            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Niño’s Mex Nuggets</a><span>$7</span>
+            </div>
+            <div class="menu-ingredients">
+              5 Chicken nuggets with a choice of fries or mexican rice
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-kids">
+            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Niños fish & Chips</a><span>$8</span>
+            </div>
+            <div class="menu-ingredients">
+              Battered fish with a choice of fries or mexican rice
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-kids">
+            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Niños Quesadilla</a><span>$11</span>
+            </div>
+            <div class="menu-ingredients">
+              With tomatoes, cheese, and with a choice of chicken/beef/roasted sweet potato
+            </div>
+          </div>
+
+          <!-- SALADS -->
           <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/Mexicana@Rose_Salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
+              <a href="#">Veggie Salad</a><span>$24</span>
             </div>
             <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+              Spiced sweet potato, spiced grilled tofu, pickled carrot, toasted buckwheat, coriander, greens, pico di galo with chili lime dressing
             </div>
-          </div><!-- Menu Item -->
+          </div>
 
           <div class="col-lg-6 menu-item isotope-item filter-salads">
             <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
+              <a href="#">New Mex Salad</a><span>$22</span>
             </div>
             <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+              Black beans, picked vegetable, roasted cauliflower, quinoa, corn crisp, salad mix with Mexican herbs & lime dressing
             </div>
-          </div><!-- Menu Item -->
+          </div>
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+          <!-- DESSERT -->
+          <div class="col-lg-6 menu-item isotope-item filter-dessert">
+            <img src="assets/img/menu/Mexicana@Rose_IceCreamBanuelos.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
+              <a href="#">Ice Cream Banuelos</a><span>$9.5</span>
             </div>
             <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+              Crispy fried flour tortillas coated in cinnamon sugar with vanilla ice cream & caramelized apples
             </div>
-          </div><!-- Menu Item -->
+          </div>
 
-        </div><!-- Menu Container -->
+          <div class="col-lg-6 menu-item isotope-item filter-dessert">
+            <img src="assets/img/menu/Mexicana@Rose_NewMexBrownie.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">New Mex Brownie</a><span>$9.5</span>
+            </div>
+            <div class="menu-ingredients">
+             New Mexico Smothered Brownie rich choclate served with Vanilla Icecream and choclate sauce on top
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-dessert">
+            <img src="assets/img/menu/Mexicana@Rose_Churros.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Churros</a><span>$9</span>
+            </div>
+            <div class="menu-ingredients">
+              Crispy fried churros with vanilla ice cream & caramelized spicy pepitas
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-dessert">
+            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Ice Cream</a><span>$7</span>
+            </div>
+            <div class="menu-ingredients">
+              Two scoops of ice cream topped with cherries and salsa de chocolate.
+              Vanilla or chocolate
+            </div>
+          </div>
+
+          <!-- EXTRAS -->
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Shredded cheese</a><span>$3</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">4pc tortillas</a><span>$3</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Mexican rice</a><span>$4.5</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Black beans</a><span>$4.5</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Crispy Fries</a><span>$7</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Corn chips</a><span>$3</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">House salsa</a><span>$3</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Salsa verde</a><span>$4</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Pico di galo</a><span>$4</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sour cream</a><span>$3.5</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+         <div class="col-lg-6 menu-item isotope-item filter-extras">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Gaucamole</a><span>$4.5</span>
+            </div>
+            <div class="menu-ingredients">
+
+            </div>
+          </div>
+
+          
+
+        </div>
 
       </div>
 
-    </section><!-- /Menu Section -->
+    </section>
+    <!-- /Menu Section -->
 
     <!-- Specials Section -->
     <section id="specials" class="specials section">
@@ -696,7 +1043,7 @@
                   come back every week – it's become our tradition!</span>
                 <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
                 <h3>Sarah Thompson</h3>
                 <h4>Local Resident</h4>
               </div>
@@ -711,7 +1058,7 @@
                     Authentic food that reminds me of my trips to Mexico!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
                 <h3>Michael Chen</h3>
                 <h4>Food Enthusiast</h4>
               </div>
@@ -726,7 +1073,7 @@
                     you walk in. Highly recommend!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
                 <h3>Emma & James Wilson</h3>
                 <h4>Regular Customers</h4>
               </div>
@@ -741,7 +1088,7 @@
                     Thank you for an unforgettable evening!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
                 <h3>David Martinez</h3>
                 <h4>Event Host</h4>
               </div>
@@ -756,7 +1103,7 @@
                     are incredible, and the fajitas are exactly as they should be. Five stars!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
                 <h3>Rebecca Foster</h3>
                 <h4>Travel Blogger</h4>
               </div>
@@ -853,78 +1200,7 @@
 
     </section><!-- /Gallery Section -->
 
-    <!-- Chefs Section -->
-    <section id="chefs" class="chefs section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Master Chef</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Patissier</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>Cook</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Chefs Section -->
+  
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -937,7 +1213,7 @@
 
       <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
         <iframe style="border:0; width: 100%; height: 400px;"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6300.120384331588!2d144.89915!3d-37.858882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad666e91f15e77d%3A0x71d40c4d72eb8821!2sRose%20of%20Australia%20-%20Bar%20%26%20Restaurant%20Williamstown!5e0!3m2!1sen!2sus!4v1764159416554!5m2!1sen!2sus"
           frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- End Google Maps -->
 
@@ -1026,25 +1302,15 @@
 
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
+        <div class="col-lg-3 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Mexicana @ Rose</span>
+            <img src="assets/images/logo.png" alt="" >
           </a>
-          <div class="footer-contact pt-3">
-            <p>54 Ferguson Street</p>
-            <p>Williamstown VIC 3016</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>(03) 9827 4551</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
+          
+          
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-3 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
@@ -1055,18 +1321,19 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
+        <div class="col-lg-3 col-md-6 footer-about">
+          
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>54 Ferguson Street</p>
+            <p>Williamstown VIC 3016</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>(03) 9827 4551</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          
         </div>
 
-        <div class="col-lg-4 col-md-12 footer-newsletter">
+        <div class="col-lg-3 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
@@ -1075,6 +1342,12 @@
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
 
       </div>
@@ -1083,14 +1356,7 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Mexicana @ Rose</strong> <span>All Rights
           Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
-          href="https://themewagon.com" target="_blank">ThemeWagon</a>
-      </div>
+      
     </div>
 
   </footer>
